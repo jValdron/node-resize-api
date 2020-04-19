@@ -1,0 +1,16 @@
+{
+  "name": "resize-api",
+  "version": "1.0.0",
+  "description": "Fetches a remote image and resizes it, made to be called from low powered devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Valdron <jason@valdron.ca>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "sharp": "^0.25.2"
+  }
+}
